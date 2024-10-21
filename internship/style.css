@@ -1,0 +1,49 @@
+
+form {
+    margin: 20px auto;  
+    max-width: 400px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Apply styles to form elements */
+  form input[type="varchar"],
+  form input[type="tel"],
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box; 
+  }
+  
+  .form-group{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+ 
+  form input[type="submit"] {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #45a049; 
+  }
+  
+ 
